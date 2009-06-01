@@ -1,3 +1,13 @@
+2009-06-01  Florian Ebeling  <febeling@macports.org>
+
+	* mpab-functions (uninstallPorts): operate on `port list active'
+	instead of `port installed'
+
+	* mpab-functions: factor out function `chroot_exec' 
+
+	* mpab-functions: add /Developer/Applications/Xcode.app to
+	pathsToCopy list
+	
 2009-04-13  Florian Ebeling  <febeling@macports.org>
 
 	* chroot-scripts/buildports (uninstallPorts): Fix: use -x on
